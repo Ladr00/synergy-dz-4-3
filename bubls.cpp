@@ -21,12 +21,12 @@ main()
 	
 	printf("\n");
 	
-	for(int j=0;j<n;j++)
+	for(int j = 0; j < n; j++)
 	{
 	
 		for (int i = 0; i < n - 1; i++)
 		{
-			if (mas [i]> mas [i+1])
+			if (mas [i] > mas [i+1])
 			{
 				int z = mas [i];
 				mas [i] = mas [i+1];
